@@ -1,0 +1,1 @@
+cp -r /usercode/* /var/www/html/ && cd /var/www/html/laravelapp && service mysql start && service apache2 start && php artisan serve --host=0.0.0.0 --port=8080
